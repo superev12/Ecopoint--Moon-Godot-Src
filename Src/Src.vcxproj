@@ -71,31 +71,31 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <TargetName>Lib$(ProjectName)-$(Platform)-$(Configuration)</TargetName>
-    <IncludePath>D:\Programing Endevours\c++\Ecopoint - Moon Godot\CppPlugins\godot-cpp-master\include;D:\Programing Endevours\c++\Ecopoint - Moon Godot\CppPlugins\godot-cpp-master\include\core;D:\Programing Endevours\c++\Ecopoint - Moon Godot\CppPlugins\godot-cpp-master\include\gen;D:\Programing Endevours\c++\Ecopoint - Moon Godot\CppPlugins\godot-cpp-master\include\;D:\Programing Endevours\c++\Ecopoint - Moon Godot\CppPlugins\godot-cpp-master\godot_headers;$(IncludePath)</IncludePath>
-    <OutDir>..\..\..\Project</OutDir>
+    <IncludePath>D:\Programing Endevours\c++\godot-cpp-master\include;D:\Programing Endevours\c++\godot-cpp-master\include\core;D:\Programing Endevours\c++\godot-cpp-master\include\gen;D:\Programing Endevours\c++\godot-cpp-master\godot_headers;$(IncludePath)</IncludePath>
+    <OutDir>..\..\Ecopoint - Moon Godot Project</OutDir>
     <TargetExt>.dll</TargetExt>
-    <LibraryPath>D:\Programing Endevours\c++\Ecopoint - Moon Godot\CppPlugins\godot-cpp-master\bin;$(LibraryPath)</LibraryPath>
+    <LibraryPath>D:\Programing Endevours\c++\godot-cpp-master\bin;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <TargetName>Lib$(ProjectName)-$(Platform)-$(Configuration)</TargetName>
-    <IncludePath>D:\Programing Endevours\c++\Ecopoint - Moon Godot\CppPlugins\godot-cpp-master\include;D:\Programing Endevours\c++\Ecopoint - Moon Godot\CppPlugins\godot-cpp-master\include\core;D:\Programing Endevours\c++\Ecopoint - Moon Godot\CppPlugins\godot-cpp-master\include\gen;D:\Programing Endevours\c++\Ecopoint - Moon Godot\CppPlugins\godot-cpp-master\include\;D:\Programing Endevours\c++\Ecopoint - Moon Godot\CppPlugins\godot-cpp-master\godot_headers;$(IncludePath)</IncludePath>
-    <OutDir>..\..\..\Project</OutDir>
+    <IncludePath>D:\Programing Endevours\c++\godot-cpp-master\include;D:\Programing Endevours\c++\godot-cpp-master\include\core;D:\Programing Endevours\c++\godot-cpp-master\include\gen;D:\Programing Endevours\c++\godot-cpp-master\godot_headers;$(IncludePath)</IncludePath>
+    <OutDir>..\..\Ecopoint - Moon Godot Project</OutDir>
     <TargetExt>.dll</TargetExt>
-    <LibraryPath>D:\Programing Endevours\c++\Ecopoint - Moon Godot\CppPlugins\godot-cpp-master\bin;$(LibraryPath)</LibraryPath>
+    <LibraryPath>D:\Programing Endevours\c++\godot-cpp-master\bin;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <TargetName>Lib$(ProjectName)-$(Platform)-$(Configuration)</TargetName>
-    <IncludePath>D:\Programing Endevours\c++\Ecopoint - Moon Godot\CppPlugins\godot-cpp-master\include;D:\Programing Endevours\c++\Ecopoint - Moon Godot\CppPlugins\godot-cpp-master\include\core;D:\Programing Endevours\c++\Ecopoint - Moon Godot\CppPlugins\godot-cpp-master\include\gen;D:\Programing Endevours\c++\Ecopoint - Moon Godot\CppPlugins\godot-cpp-master\include\;D:\Programing Endevours\c++\Ecopoint - Moon Godot\CppPlugins\godot-cpp-master\godot_headers;$(IncludePath)</IncludePath>
-    <OutDir>..\..\..\Project</OutDir>
+    <IncludePath>D:\Programing Endevours\c++\godot-cpp-master\include;D:\Programing Endevours\c++\godot-cpp-master\include\core;D:\Programing Endevours\c++\godot-cpp-master\include\gen;D:\Programing Endevours\c++\godot-cpp-master\godot_headers;$(IncludePath)</IncludePath>
+    <OutDir>..\..\Ecopoint - Moon Godot Project</OutDir>
     <TargetExt>.dll</TargetExt>
-    <LibraryPath>D:\Programing Endevours\c++\Ecopoint - Moon Godot\CppPlugins\godot-cpp-master\bin;$(LibraryPath)</LibraryPath>
+    <LibraryPath>D:\Programing Endevours\c++\godot-cpp-master\bin;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <TargetName>Lib$(ProjectName)-$(Platform)-$(Configuration)</TargetName>
-    <IncludePath>D:\Programing Endevours\c++\Ecopoint - Moon Godot\CppPlugins\godot-cpp-master\include;D:\Programing Endevours\c++\Ecopoint - Moon Godot\CppPlugins\godot-cpp-master\include\core;D:\Programing Endevours\c++\Ecopoint - Moon Godot\CppPlugins\godot-cpp-master\include\gen;D:\Programing Endevours\c++\Ecopoint - Moon Godot\CppPlugins\godot-cpp-master\include\;D:\Programing Endevours\c++\Ecopoint - Moon Godot\CppPlugins\godot-cpp-master\godot_headers;$(IncludePath)</IncludePath>
-    <OutDir>..\..\..\Project</OutDir>
+    <IncludePath>D:\Programing Endevours\c++\godot-cpp-master\include;D:\Programing Endevours\c++\godot-cpp-master\include\core;D:\Programing Endevours\c++\godot-cpp-master\include\gen;D:\Programing Endevours\c++\godot-cpp-master\godot_headers;$(IncludePath)</IncludePath>
+    <OutDir>..\..\Ecopoint - Moon Godot Project</OutDir>
     <TargetExt>.dll</TargetExt>
-    <LibraryPath>D:\Programing Endevours\c++\Ecopoint - Moon Godot\CppPlugins\godot-cpp-master\bin;$(LibraryPath)</LibraryPath>
+    <LibraryPath>D:\Programing Endevours\c++\godot-cpp-master\bin;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
@@ -150,12 +150,15 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="GameCamera.cpp" />
     <ClCompile Include="Common.cpp" />
     <ClCompile Include="Main.cpp" />
     <ClCompile Include="Tile.cpp" />
     <ClCompile Include="TileData.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="GameCamera.h" />
+    <ClInclude Include="Constants.h" />
     <ClInclude Include="Main.h" />
     <ClInclude Include="Tile.h" />
     <ClInclude Include="TileData.h" />

@@ -1,6 +1,7 @@
 #include "Main.h"
 #include "Tile.h"
 #include "TileData.h"
+#include "GameCamera.h"
 
 using namespace godot;
 
@@ -20,4 +21,5 @@ extern "C" void GDN_EXPORT godot_nativescript_init(void * handle)
 	register_class<Main>();
 	register_class<Tile>();
 	register_class<TileData>();
+	register_class<GameCamera>();
 }

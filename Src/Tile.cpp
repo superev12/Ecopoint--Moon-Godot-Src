@@ -15,11 +15,15 @@ Tile::~Tile()
 {
 }
 
-void godot::Tile::_init()
+void Tile::_init()
 {
-	Godot::print("You made a tile.");
 }
 
-void godot::Tile::_process(float delta)
+void Tile::_process(float delta)
 {
+}
+
+bool Tile::has_room()
+{
+	return room;
 }
