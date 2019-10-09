@@ -33,22 +33,30 @@ void GameCamera::_process()
 
 void GameCamera::pan_left(float amount)
 {
-	Godot::print("Panning left");
-	Godot::print(get_position());
-	heading.x = -amount;
+	heading.x = -amount * get_zoom().abs;
 }
 
 void GameCamera::pan_right(float amount)
 {
-	heading.x = amount;
+	heading.x = amount * get_zoom().abs;
 }
 
 void GameCamera::pan_up(float amount)
 {
-	heading.y = -amount;
+	heading.y = -amount * get_zoom().abs;
 }
 
 void GameCamera::pan_down(float amount)
 {
-	heading.y = amount;
+	heading.y = amount * get_zoom().abs;
+}
+
+void GameCamera::zoom_in(float amount)
+{
+	set_zoom(get_zoom() + Vector2(amount, amount));
+}
+
+void GameCamera::zoom_out(float amount)
+{
+	set_zoom(get_zoom() - Vector2(amount, amount));
 }

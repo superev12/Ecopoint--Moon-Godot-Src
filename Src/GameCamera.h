@@ -22,5 +22,7 @@ namespace godot
 		void pan_right(float amount);
 		void pan_up(float amount);
 		void pan_down(float amount);
+		void zoom_in(float amount);
+		void zoom_out(float amount);
 	};
 }

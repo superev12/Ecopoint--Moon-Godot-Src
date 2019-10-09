@@ -38,33 +38,42 @@ void Main::_process(float delta) {}
 
 void Main::_input(InputEvent * event)
 {
-	doInput(event);
-}
-
-void Main::doInput(InputEventKey * event)
-{
-	if (event->is_action_type())
-	{	
-		if (event->is_action_pressed("ui_left"))
+	if (event->get_class() == "InputEventMouseButton")
+	{
+		if (event->is_action_type())
 		{
-			mycamera->pan_left(constants::CAMERA_SPEED);
+			if (event->is_action_pressed("ui_scrolldown"))
+			{
+				mycamera->zoom_in(0.25f);
+			}
+			else if (event->is_action_pressed("ui_scrollup"))
+			{
+				mycamera->zoom_out(0.25f);
+			}
 		}
-		if (event->is_action_pressed("ui_right"))
+	}
+	else if (event->get_class() == "InputEventKey")
+	{
+		if (event->is_action_type())
 		{
-			mycamera->pan_right(constants::CAMERA_SPEED);
-		}
-		if (event->is_action_pressed("ui_up"))
-		{
-			mycamera->pan_up(constants::CAMERA_SPEED);
-		}
-		if (event->is_action_pressed("ui_down"))
-		{
-			mycamera->pan_down(constants::CAMERA_SPEED);
+			if (event->is_action_pressed("ui_left"))
+			{
+				mycamera->pan_left(constants::CAMERA_SPEED);
+			}
+			if (event->is_action_pressed("ui_right"))
+			{
+				mycamera->pan_right(constants::CAMERA_SPEED);
+			}
+			if (event->is_action_pressed("ui_up"))
+			{
+				mycamera->pan_up(constants::CAMERA_SPEED);
+			}
+			if (event->is_action_pressed("ui_down"))
+			{
+				mycamera->pan_down(constants::CAMERA_SPEED);
+			}
 		}
 	}
 }
 
-void Main::doInput(InputEventMouseButton * event)
-{
-	Godot::print("Did something with mouse");
-}
+
